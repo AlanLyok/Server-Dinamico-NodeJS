@@ -7,7 +7,8 @@ npm install cors
 npm install mssql
 npm install dotenv
 
-En la base deseada se debe crear la tabla "Tables" la cual tendra los nombres de las tablas que se quiere inicializar el CRUD. 
+En la base deseada se debe crear la tabla "Tables" con el script /Scripts SQL/Create Tables.sql
+la cual tendra los nombres de las tablas que se quiere inicializar el CRUD. 
 
 ARCHIVO .ENV
 En entorno de testing, se debe crear un archivo .env con los datos de la conexion a la base. 
